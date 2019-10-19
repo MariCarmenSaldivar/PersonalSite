@@ -1,35 +1,70 @@
-C:\Users\Maricarmen Saldivar\source\PersonalSite\bin\Debug\netcoreapp3.0\appsettings.Development.json
-C:\Users\Maricarmen Saldivar\source\PersonalSite\bin\Debug\netcoreapp3.0\appsettings.json
-C:\Users\Maricarmen Saldivar\source\PersonalSite\bin\Debug\netcoreapp3.0\Properties\launchSettings.json
-C:\Users\Maricarmen Saldivar\source\PersonalSite\bin\Debug\netcoreapp3.0\PersonalSite.exe
-C:\Users\Maricarmen Saldivar\source\PersonalSite\bin\Debug\netcoreapp3.0\PersonalSite.deps.json
-C:\Users\Maricarmen Saldivar\source\PersonalSite\bin\Debug\netcoreapp3.0\PersonalSite.runtimeconfig.json
-C:\Users\Maricarmen Saldivar\source\PersonalSite\bin\Debug\netcoreapp3.0\PersonalSite.runtimeconfig.dev.json
-C:\Users\Maricarmen Saldivar\source\PersonalSite\bin\Debug\netcoreapp3.0\PersonalSite.dll
-C:\Users\Maricarmen Saldivar\source\PersonalSite\bin\Debug\netcoreapp3.0\PersonalSite.pdb
-C:\Users\Maricarmen Saldivar\source\PersonalSite\bin\Debug\netcoreapp3.0\PersonalSite.Views.dll
-C:\Users\Maricarmen Saldivar\source\PersonalSite\bin\Debug\netcoreapp3.0\PersonalSite.Views.pdb
-C:\Users\Maricarmen Saldivar\source\PersonalSite\obj\Debug\netcoreapp3.0\PersonalSite.csprojAssemblyReference.cache
-C:\Users\Maricarmen Saldivar\source\PersonalSite\obj\Debug\netcoreapp3.0\staticwebassets\PersonalSite.StaticWebAssets.Manifest.cache
-C:\Users\Maricarmen Saldivar\source\PersonalSite\obj\Debug\netcoreapp3.0\staticwebassets\PersonalSite.StaticWebAssets.xml
-C:\Users\Maricarmen Saldivar\source\PersonalSite\obj\Debug\netcoreapp3.0\PersonalSite.MvcApplicationPartsAssemblyInfo.cache
-C:\Users\Maricarmen Saldivar\source\PersonalSite\obj\Debug\netcoreapp3.0\PersonalSite.RazorAssemblyInfo.cache
-C:\Users\Maricarmen Saldivar\source\PersonalSite\obj\Debug\netcoreapp3.0\PersonalSite.RazorAssemblyInfo.cs
-C:\Users\Maricarmen Saldivar\source\PersonalSite\obj\Debug\netcoreapp3.0\PersonalSite.AssemblyInfoInputs.cache
-C:\Users\Maricarmen Saldivar\source\PersonalSite\obj\Debug\netcoreapp3.0\PersonalSite.AssemblyInfo.cs
-C:\Users\Maricarmen Saldivar\source\PersonalSite\obj\Debug\netcoreapp3.0\PersonalSite.TagHelpers.input.cache
-C:\Users\Maricarmen Saldivar\source\PersonalSite\obj\Debug\netcoreapp3.0\PersonalSite.TagHelpers.output.cache
-C:\Users\Maricarmen Saldivar\source\PersonalSite\obj\Debug\netcoreapp3.0\PersonalSite.RazorCoreGenerate.cache
-C:\Users\Maricarmen Saldivar\source\PersonalSite\obj\Debug\netcoreapp3.0\Razor\Views\Home\Index.cshtml.g.cs
-C:\Users\Maricarmen Saldivar\source\PersonalSite\obj\Debug\netcoreapp3.0\Razor\Views\Home\Privacy.cshtml.g.cs
-C:\Users\Maricarmen Saldivar\source\PersonalSite\obj\Debug\netcoreapp3.0\Razor\Views\Shared\Error.cshtml.g.cs
-C:\Users\Maricarmen Saldivar\source\PersonalSite\obj\Debug\netcoreapp3.0\Razor\Views\Shared\_Layout.cshtml.g.cs
-C:\Users\Maricarmen Saldivar\source\PersonalSite\obj\Debug\netcoreapp3.0\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
-C:\Users\Maricarmen Saldivar\source\PersonalSite\obj\Debug\netcoreapp3.0\Razor\Views\_ViewImports.cshtml.g.cs
-C:\Users\Maricarmen Saldivar\source\PersonalSite\obj\Debug\netcoreapp3.0\Razor\Views\_ViewStart.cshtml.g.cs
-C:\Users\Maricarmen Saldivar\source\PersonalSite\obj\Debug\netcoreapp3.0\PersonalSite.RazorTargetAssemblyInfo.cache
-C:\Users\Maricarmen Saldivar\source\PersonalSite\obj\Debug\netcoreapp3.0\PersonalSite.RazorTargetAssemblyInfo.cs
-C:\Users\Maricarmen Saldivar\source\PersonalSite\obj\Debug\netcoreapp3.0\PersonalSite.Views.pdb
-C:\Users\Maricarmen Saldivar\source\PersonalSite\obj\Debug\netcoreapp3.0\PersonalSite.dll
-C:\Users\Maricarmen Saldivar\source\PersonalSite\obj\Debug\netcoreapp3.0\PersonalSite.pdb
-C:\Users\Maricarmen Saldivar\source\PersonalSite\obj\Debug\netcoreapp3.0\PersonalSite.csproj.CopyComplete
+C:/Users/Maricarmen Saldivar/source/PersonalSite/bin/Debug/netcoreapp3.0/appsettings.Development.json
+C:/Users/Maricarmen Saldivar/source/PersonalSite/bin/Debug/netcoreapp3.0/appsettings.json
+C:/Users/Maricarmen Saldivar/source/PersonalSite/bin/Debug/netcoreapp3.0/Properties/launchSettings.json
+C:/Users/Maricarmen Saldivar/source/PersonalSite/bin/Debug/netcoreapp3.0/PersonalSite.exe
+C:/Users/Maricarmen Saldivar/source/PersonalSite/bin/Debug/netcoreapp3.0/PersonalSite.deps.json
+C:/Users/Maricarmen Saldivar/source/PersonalSite/bin/Debug/netcoreapp3.0/PersonalSite.runtimeconfig.json
+C:/Users/Maricarmen Saldivar/source/PersonalSite/bin/Debug/netcoreapp3.0/PersonalSite.runtimeconfig.dev.json
+C:/Users/Maricarmen Saldivar/source/PersonalSite/bin/Debug/netcoreapp3.0/PersonalSite.dll
+C:/Users/Maricarmen Saldivar/source/PersonalSite/bin/Debug/netcoreapp3.0/PersonalSite.pdb
+C:/Users/Maricarmen Saldivar/source/PersonalSite/bin/Debug/netcoreapp3.0/PersonalSite.Views.dll
+C:/Users/Maricarmen Saldivar/source/PersonalSite/bin/Debug/netcoreapp3.0/PersonalSite.Views.pdb
+C:/Users/Maricarmen Saldivar/source/PersonalSite/obj/Debug/netcoreapp3.0/PersonalSite.csprojAssemblyReference.cache
+C:/Users/Maricarmen Saldivar/source/PersonalSite/obj/Debug/netcoreapp3.0/staticwebassets/PersonalSite.StaticWebAssets.Manifest.cache
+C:/Users/Maricarmen Saldivar/source/PersonalSite/obj/Debug/netcoreapp3.0/staticwebassets/PersonalSite.StaticWebAssets.xml
+C:/Users/Maricarmen Saldivar/source/PersonalSite/obj/Debug/netcoreapp3.0/PersonalSite.MvcApplicationPartsAssemblyInfo.cache
+C:/Users/Maricarmen Saldivar/source/PersonalSite/obj/Debug/netcoreapp3.0/PersonalSite.RazorAssemblyInfo.cache
+C:/Users/Maricarmen Saldivar/source/PersonalSite/obj/Debug/netcoreapp3.0/PersonalSite.RazorAssemblyInfo.cs
+C:/Users/Maricarmen Saldivar/source/PersonalSite/obj/Debug/netcoreapp3.0/PersonalSite.AssemblyInfoInputs.cache
+C:/Users/Maricarmen Saldivar/source/PersonalSite/obj/Debug/netcoreapp3.0/PersonalSite.AssemblyInfo.cs
+C:/Users/Maricarmen Saldivar/source/PersonalSite/obj/Debug/netcoreapp3.0/PersonalSite.TagHelpers.input.cache
+C:/Users/Maricarmen Saldivar/source/PersonalSite/obj/Debug/netcoreapp3.0/PersonalSite.TagHelpers.output.cache
+C:/Users/Maricarmen Saldivar/source/PersonalSite/obj/Debug/netcoreapp3.0/PersonalSite.RazorCoreGenerate.cache
+C:/Users/Maricarmen Saldivar/source/PersonalSite/obj/Debug/netcoreapp3.0/Razor/Views/Home/Index.cshtml.g.cs
+C:/Users/Maricarmen Saldivar/source/PersonalSite/obj/Debug/netcoreapp3.0/Razor/Views/Home/Privacy.cshtml.g.cs
+C:/Users/Maricarmen Saldivar/source/PersonalSite/obj/Debug/netcoreapp3.0/Razor/Views/Shared/Error.cshtml.g.cs
+C:/Users/Maricarmen Saldivar/source/PersonalSite/obj/Debug/netcoreapp3.0/Razor/Views/Shared/_Layout.cshtml.g.cs
+C:/Users/Maricarmen Saldivar/source/PersonalSite/obj/Debug/netcoreapp3.0/Razor/Views/Shared/_ValidationScriptsPartial.cshtml.g.cs
+C:/Users/Maricarmen Saldivar/source/PersonalSite/obj/Debug/netcoreapp3.0/Razor/Views/_ViewImports.cshtml.g.cs
+C:/Users/Maricarmen Saldivar/source/PersonalSite/obj/Debug/netcoreapp3.0/Razor/Views/_ViewStart.cshtml.g.cs
+C:/Users/Maricarmen Saldivar/source/PersonalSite/obj/Debug/netcoreapp3.0/PersonalSite.RazorTargetAssemblyInfo.cache
+C:/Users/Maricarmen Saldivar/source/PersonalSite/obj/Debug/netcoreapp3.0/PersonalSite.RazorTargetAssemblyInfo.cs
+C:/Users/Maricarmen Saldivar/source/PersonalSite/obj/Debug/netcoreapp3.0/PersonalSite.Views.pdb
+C:/Users/Maricarmen Saldivar/source/PersonalSite/obj/Debug/netcoreapp3.0/PersonalSite.dll
+C:/Users/Maricarmen Saldivar/source/PersonalSite/obj/Debug/netcoreapp3.0/PersonalSite.pdb
+C:/Users/Maricarmen Saldivar/source/PersonalSite/obj/Debug/netcoreapp3.0/PersonalSite.csproj.CopyComplete
+/home/ubuntu/reposnet/PersonalSite/bin/Debug/netcoreapp3.0/appsettings.Development.json
+/home/ubuntu/reposnet/PersonalSite/bin/Debug/netcoreapp3.0/appsettings.json
+/home/ubuntu/reposnet/PersonalSite/bin/Debug/netcoreapp3.0/Properties/launchSettings.json
+/home/ubuntu/reposnet/PersonalSite/bin/Debug/netcoreapp3.0/PersonalSite
+/home/ubuntu/reposnet/PersonalSite/bin/Debug/netcoreapp3.0/PersonalSite.deps.json
+/home/ubuntu/reposnet/PersonalSite/bin/Debug/netcoreapp3.0/PersonalSite.runtimeconfig.json
+/home/ubuntu/reposnet/PersonalSite/bin/Debug/netcoreapp3.0/PersonalSite.runtimeconfig.dev.json
+/home/ubuntu/reposnet/PersonalSite/bin/Debug/netcoreapp3.0/PersonalSite.dll
+/home/ubuntu/reposnet/PersonalSite/bin/Debug/netcoreapp3.0/PersonalSite.pdb
+/home/ubuntu/reposnet/PersonalSite/bin/Debug/netcoreapp3.0/PersonalSite.Views.dll
+/home/ubuntu/reposnet/PersonalSite/bin/Debug/netcoreapp3.0/PersonalSite.Views.pdb
+/home/ubuntu/reposnet/PersonalSite/obj/Debug/netcoreapp3.0/PersonalSite.csprojAssemblyReference.cache
+/home/ubuntu/reposnet/PersonalSite/obj/Debug/netcoreapp3.0/staticwebassets/PersonalSite.StaticWebAssets.Manifest.cache
+/home/ubuntu/reposnet/PersonalSite/obj/Debug/netcoreapp3.0/staticwebassets/PersonalSite.StaticWebAssets.xml
+/home/ubuntu/reposnet/PersonalSite/obj/Debug/netcoreapp3.0/PersonalSite.MvcApplicationPartsAssemblyInfo.cache
+/home/ubuntu/reposnet/PersonalSite/obj/Debug/netcoreapp3.0/PersonalSite.RazorAssemblyInfo.cache
+/home/ubuntu/reposnet/PersonalSite/obj/Debug/netcoreapp3.0/PersonalSite.RazorAssemblyInfo.cs
+/home/ubuntu/reposnet/PersonalSite/obj/Debug/netcoreapp3.0/PersonalSite.AssemblyInfoInputs.cache
+/home/ubuntu/reposnet/PersonalSite/obj/Debug/netcoreapp3.0/PersonalSite.AssemblyInfo.cs
+/home/ubuntu/reposnet/PersonalSite/obj/Debug/netcoreapp3.0/PersonalSite.TagHelpers.input.cache
+/home/ubuntu/reposnet/PersonalSite/obj/Debug/netcoreapp3.0/PersonalSite.TagHelpers.output.cache
+/home/ubuntu/reposnet/PersonalSite/obj/Debug/netcoreapp3.0/PersonalSite.RazorCoreGenerate.cache
+/home/ubuntu/reposnet/PersonalSite/obj/Debug/netcoreapp3.0/Razor/Views/Home/Index.cshtml.g.cs
+/home/ubuntu/reposnet/PersonalSite/obj/Debug/netcoreapp3.0/Razor/Views/Home/Privacy.cshtml.g.cs
+/home/ubuntu/reposnet/PersonalSite/obj/Debug/netcoreapp3.0/Razor/Views/Shared/Error.cshtml.g.cs
+/home/ubuntu/reposnet/PersonalSite/obj/Debug/netcoreapp3.0/Razor/Views/Shared/_Layout.cshtml.g.cs
+/home/ubuntu/reposnet/PersonalSite/obj/Debug/netcoreapp3.0/Razor/Views/Shared/_ValidationScriptsPartial.cshtml.g.cs
+/home/ubuntu/reposnet/PersonalSite/obj/Debug/netcoreapp3.0/Razor/Views/_ViewImports.cshtml.g.cs
+/home/ubuntu/reposnet/PersonalSite/obj/Debug/netcoreapp3.0/Razor/Views/_ViewStart.cshtml.g.cs
+/home/ubuntu/reposnet/PersonalSite/obj/Debug/netcoreapp3.0/PersonalSite.RazorTargetAssemblyInfo.cache
+/home/ubuntu/reposnet/PersonalSite/obj/Debug/netcoreapp3.0/PersonalSite.RazorTargetAssemblyInfo.cs
+/home/ubuntu/reposnet/PersonalSite/obj/Debug/netcoreapp3.0/PersonalSite.Views.pdb
+/home/ubuntu/reposnet/PersonalSite/obj/Debug/netcoreapp3.0/PersonalSite.dll
+/home/ubuntu/reposnet/PersonalSite/obj/Debug/netcoreapp3.0/PersonalSite.pdb
+/home/ubuntu/reposnet/PersonalSite/obj/Debug/netcoreapp3.0/PersonalSite.csproj.CopyComplete
