@@ -2,7 +2,7 @@ FROM mcr.microsoft.com/dotnet/core/sdk:3.0-alpine as publish
 WORKDIR /publish
 COPY PersonalSite.csproj .
 RUN dotnet restore 
-COPY . .
+COPY . ./
 RUN dotnet publish --output ./out
 
 FROM mcr.microsoft.com/dotnet/core/aspnet:3.0-alpine as runtime
