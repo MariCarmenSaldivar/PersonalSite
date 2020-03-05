@@ -7,7 +7,7 @@ trigger:
 - master
 
 pool:
-  name: testpool
+  name: LocalAgent
 
 steps:
 - script: echo Hello, world!
