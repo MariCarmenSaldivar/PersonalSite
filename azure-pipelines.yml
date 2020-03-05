@@ -24,3 +24,4 @@ steps:
       # Write your commands here
       export QWERTY=”http://myproxy.net:12345”
       echo $ABC
+      export QWERTY=”http://myproxy.net:12345”
