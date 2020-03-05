@@ -12,7 +12,6 @@ pool:
 steps:
 - script: echo Hello, world!
   displayName: 'Run a one-line script'
-- bash: echo $AWS_ACCESS_KEY_ID
 - script: |
     echo Add other tasks to build, test, and deploy your project.
     echo See https://aka.ms/yaml
@@ -23,5 +22,5 @@ steps:
     targetType: 'inline'
     script: |
       # Write your commands here
-      
+      'env | sort'
       echo $AWS_ACCESS_KEY_ID
