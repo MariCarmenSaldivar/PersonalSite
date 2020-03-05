@@ -22,6 +22,6 @@ steps:
     targetType: 'inline'
     script: |
       # Write your commands here
-      export QWERTY=”http://myproxy.net:12345”
+      export AWS_ACCESS_KEY_ID=AKIAIOSFODNN7EXAMPLE
       echo $ABC
-      export QWERTY=”http://myproxy.net:12345”
+      echo $AWS_ACCESS_KEY_ID
