@@ -24,4 +24,4 @@ steps:
     script: |
       # Write your commands here
       
-      echo %AWS_ACCESS_KEY_ID%
+      echo $AWS_ACCESS_KEY_ID
