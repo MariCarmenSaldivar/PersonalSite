@@ -23,4 +23,4 @@ steps:
     script: |
       # Write your commands here
       'env | sort'
-      echo $(AWS.ACCESS.KEY.ID)
+      echo ${AWS_ACCESS_KEY_ID}
