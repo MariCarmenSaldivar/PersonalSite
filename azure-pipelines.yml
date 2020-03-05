@@ -23,4 +23,11 @@ steps:
     script: |
       # Write your commands here
       'env | sort'
-      echo $AWS_ACCESS_KEY_ID
+      echo $(AWS.ACCESS.KEY.ID)
+
+- task: PowerShell@2
+  inputs:
+    targetType: 'inline'
+    script: |
+      # Write your PowerShell commands here.       
+      $(AWS_ACCESS_KEY_ID)
