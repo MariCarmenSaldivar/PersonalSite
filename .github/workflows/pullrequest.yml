@@ -32,4 +32,6 @@ jobs:
       - name: Run a multi-line script
         run: |
           echo ${{ github.event.pull_request.body }},
-          echo test, and deploy your project.
+          echo ${{ github.event.pull_request.body }} | grep -Eo '[AB]{1,2}\#[0-9]{3,}' | grep -Eo '[0-9]{5,}' | while read -r line; do
+            echo "ok $line"
+          done
