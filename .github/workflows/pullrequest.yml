@@ -34,5 +34,10 @@ jobs:
       - name: Run a multi-line script
         run: |
           echo $PULL_REQUEST_BODY | tr -d '\n' | grep -Eo '[AB]{1,2}\#[0-9]{3,}' | grep -Eo '[0-9]{5,}' | while read -r line; do
-            echo "ok $line"
+            if [ "$line" == "1234" ]; then
+              echo "Invalid Id task: $line."
+              exit 1
+            else
+              echo "Task: $line "
+            fi
           done
