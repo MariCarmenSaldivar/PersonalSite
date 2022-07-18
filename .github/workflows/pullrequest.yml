@@ -41,3 +41,32 @@ jobs:
               echo "Task: $line "
             fi
           done
+
+  list-manifests:
+    runs-on: ubuntu-latest
+    outputs:
+      matrix: ${{ steps.set-matrix.outputs.matrix }}
+    steps:
+      - uses: actions/checkout@v2
+      - id: set-matrix
+        run: |
+          echo $PULL_REQUEST_BODY | tr -d '\n' | grep -Eo '[AB]{1,2}\#[0-9]{3,}' | grep -Eo '[0-9]{5,}' | while read -r line; do
+            echo "Task: $line"
+          done
+          arraytask=$(echo $PULL_REQUEST_BODY | tr -d '\n' | grep -Eo '[AB]{1,2}\#[0-9]{3,}' | grep -Eo '[0-9]{5,}' | jq -R -s -c 'split("\n")[:-1]';)
+          echo $arraytask
+          echo '::set-output name=matrix::["12345","1236"]'
+          
+  check:
+      needs: list-manifests
+      runs-on: ubuntu-latest
+      strategy:
+          matrix:
+              manifest: ${{ fromJSON(needs.list-manifests.outputs.matrix) }}
+      steps:
+        - uses: actions/checkout@v2   
+        - run: echo ${{ matrix.manifest }}
+        
+        - run: echo ${{ needs.list-manifests.outputs.matrix }}
+        
+    # The type of runner that the job will run on
