@@ -1,0 +1,72 @@
+# This is a basic workflow to help you get started with Actions
+
+name: CI
+
+# Controls when the workflow will run
+on:
+  # Triggers the workflow on push or pull request events but only for the "master" branch
+  pull_request:
+    types: [opened, reopened, edited]
+
+  # Allows you to run this workflow manually from the Actions tab
+  workflow_dispatch:
+
+env:
+  PULL_REQUEST_BODY: ${{ github.event.pull_request.body }}
+
+# A workflow run is made up of one or more jobs that can run sequentially or in parallel
+jobs:
+  # This workflow contains a single job called "build"
+  build:
+    # The type of runner that the job will run on
+    runs-on: ubuntu-latest
+
+    # Steps represent a sequence of tasks that will be executed as part of the job
+    steps:
+      # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
+      - uses: actions/checkout@v3
+
+      # Runs a single command using the runners shell
+      - name: Run a one-line script
+        run: echo ${{ github.event.number }}
+
+      # Runs a set of commands using the runners shell
+      - name: Run a multi-line script
+        run: |
+          echo $PULL_REQUEST_BODY | tr -d '\n' | grep -Eo '[AB]{1,2}\#[0-9]{3,}' | grep -Eo '[0-9]{3,}' | while read -r line; do
+            if [ "$line" == "12345" ]; then
+              echo "Invalid Id task: $line."
+              exit 150
+            else
+              echo "Task: $line "
+            fi
+          done
+
+  list-manifests:
+    runs-on: ubuntu-latest
+    outputs:
+      matrix: ${{ steps.set-matrix.outputs.matrix }}
+    steps:
+      - uses: actions/checkout@v2
+      - id: set-matrix
+        run: |
+          echo $PULL_REQUEST_BODY | tr -d '\n' | grep -Eo '[AB]{1,2}\#[0-9]{3,}' | grep -Eo '[0-9]{5,}' | while read -r line; do
+            echo "Task: $line"
+          done
+          arraytask=$(echo $PULL_REQUEST_BODY | tr -d '\n' | grep -Eo '[AB]{1,2}\#[0-9]{3,}' | grep -Eo '[0-9]{5,}' | jq -R -s -c 'split("\n")[:-1]';)
+          echo $arraytask
+          echo ::set-output name=matrix::$arraytask
+          
+  check:
+      needs: list-manifests
+      runs-on: ubuntu-latest
+      strategy:
+          matrix:
+              manifest: ${{ fromJSON(needs.list-manifests.outputs.matrix) }}
+      steps:
+        - uses: actions/checkout@v2   
+        - run: echo ${{ matrix.manifest }}
+        
+        - run: echo ${{ needs.list-manifests.outputs.matrix }}
+        
+    # The type of runner that the job will run on
